@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 0;
+    background-color: #FFb3c6; 
+}
+
+#container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+}
+
+#image-container {
+    /* This container will hold the images */
+}
+
+#question {
+    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the question */
+    font-size: 52px; /* Set font size for the question */
+}
+
+#options {
+    margin-top: 20px; /* Add space above the options */
+}
+
+button {
+    padding: 10px 20px; /* padding for buttons */
+    margin: 0 10px;
+    font-size: 26px;
+    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
+    background-color: #9D3776; /* Set button background color */
+    color: white; /* Set text color to white */
+    border: none; 
+    cursor: pointer;
+}
+
+#additional-text-container p {
+    font-family: Arial, sans-serif; /* Use the same font as your buttons */
+    font-size: 104px; /* Adjust the font size as needed */
+    color: #000; /* Adjust the color as needed */
+}
